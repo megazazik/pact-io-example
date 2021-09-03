@@ -1,0 +1,44 @@
+{
+  "consumer": {
+    "name": "MetricsClient"
+  },
+  "provider": {
+    "name": "MetricsApiMiddleware"
+  },
+  "interactions": [
+    {
+      "description": "saved metric",
+      "providerState": "ready to receive metrics",
+      "request": {
+        "method": "POST",
+        "path": "/counter",
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "name": "MyTestMetrics"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "body": {
+          "status": "ok"
+        },
+        "matchingRules": {
+          "$.headers.Content-Type": {
+            "match": "regex",
+            "regex": "application\\/json"
+          }
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
