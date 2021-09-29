@@ -1,0 +1,41 @@
+# Logfile created on 2021-09-15 00:45:15 +0300 by logger.rb/47272
+I, [2021-09-15T01:01:17.896375 #2408]  INFO -- : Running example 'Verifying a pact between MetricsClient and MetricsApiMiddleware Given ready to receive metrics saved metric with POST /counter returns a response which has status code 200'
+I, [2021-09-15T01:01:17.897164 #2408]  INFO -- : Sending POST request to path: "/counter" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"ready to receive metrics"}]}, see debug logs for body
+D, [2021-09-15T01:01:17.897251 #2408] DEBUG -- : body :{"name":"MyTestMetrics"}
+I, [2021-09-15T01:01:17.919040 #2408]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Tue, 14 Sep 2021 22:01:17 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2021-09-15T01:01:17.919130 #2408] DEBUG -- : body: 404 page not found
+
+I, [2021-09-15T01:02:45.120862 #2540]  INFO -- : Running example 'Verifying a pact between MetricsClient and MetricsApiMiddleware Given ready to receive metrics saved metric with POST /counter returns a response which has status code 200'
+I, [2021-09-15T01:02:45.121983 #2540]  INFO -- : Sending POST request to path: "/counter" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"ready to receive metrics"}]}, see debug logs for body
+D, [2021-09-15T01:02:45.122026 #2540] DEBUG -- : body :{"name":"MyTestMetrics"}
+I, [2021-09-15T01:02:45.144775 #2540]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Tue, 14 Sep 2021 22:02:45 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2021-09-15T01:02:45.144876 #2540] DEBUG -- : body: 404 page not found
+
+I, [2021-09-15T10:35:35.590474 #5463]  INFO -- : Running example 'Verifying a pact between MetricsClient and MetricsApiMiddleware Given ready to receive metrics saved metric with POST /counter returns a response which has status code 200'
+I, [2021-09-15T10:35:35.591093 #5463]  INFO -- : Sending POST request to path: "/counter" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"ready to receive metrics"}]}, see debug logs for body
+D, [2021-09-15T10:35:35.591139 #5463] DEBUG -- : body :{"name":"MyTestMetrics"}
+I, [2021-09-15T10:35:35.610256 #5463]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 15 Sep 2021 07:35:35 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2021-09-15T10:35:35.610335 #5463] DEBUG -- : body: 404 page not found
+
+I, [2021-09-15T10:35:50.378189 #5545]  INFO -- : Running example 'Verifying a pact between MetricsClient and MetricsApiMiddleware Given ready to receive metrics saved metric with POST /counter returns a response which has status code 200'
+I, [2021-09-15T10:35:50.378414 #5545]  INFO -- : Sending POST request to path: "/counter" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"ready to receive metrics"}]}, see debug logs for body
+D, [2021-09-15T10:35:50.378460 #5545] DEBUG -- : body :{"name":"MyTestMetrics"}
+I, [2021-09-15T10:35:50.398206 #5545]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Wed, 15 Sep 2021 07:35:50 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2021-09-15T10:35:50.398272 #5545] DEBUG -- : body: 404 page not found
+
+I, [2021-09-21T01:18:43.177922 #53070]  INFO -- : Running example 'Verifying a pact between MetricsClient and MetricsApiMiddleware Given ready to receive metrics saved metric with POST /counter returns a response which has status code 200'
+I, [2021-09-21T01:18:43.178599 #53070]  INFO -- : Sending POST request to path: "/counter" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"ready to receive metrics"}]}, see debug logs for body
+D, [2021-09-21T01:18:43.178698 #53070] DEBUG -- : body :{"name":"MyTestMetrics"}
+I, [2021-09-21T01:18:43.203409 #53070]  INFO -- : Received response with status: 404, headers: {"Content-Length"=>"19", "Content-Type"=>"text/plain; charset=utf-8", "Date"=>"Mon, 20 Sep 2021 22:18:43 GMT", "X-Content-Type-Options"=>"nosniff"}, see debug logs for body
+D, [2021-09-21T01:18:43.203533 #53070] DEBUG -- : body: 404 page not found
+
+I, [2021-09-21T01:22:00.500392 #53323]  INFO -- : Running example 'Verifying a pact between MetricsClient and MetricsApiMiddleware Given ready to receive metrics saved metric with POST /counter returns a response which has status code 200'
+I, [2021-09-21T01:22:00.501083 #53323]  INFO -- : Sending POST request to path: "/counter" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"ready to receive metrics"}]}, see debug logs for body
+D, [2021-09-21T01:22:00.501179 #53323] DEBUG -- : body :{"name":"MyTestMetrics"}
+I, [2021-09-21T01:22:00.525086 #53323]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"16", "Content-Type"=>"application/json", "Date"=>"Mon, 20 Sep 2021 22:22:00 GMT"}, see debug logs for body
+D, [2021-09-21T01:22:00.525192 #53323] DEBUG -- : body: {"status": "ok"}
+I, [2021-09-29T12:00:18.552229 #86144]  INFO -- : Running example 'Verifying a pact between MetricsClient and MetricsApiMiddleware Given ready to receive metrics saved metric with POST /counter returns a response which has status code 200'
+I, [2021-09-29T12:00:18.553175 #86144]  INFO -- : Sending POST request to path: "/counter" with headers: {"CONTENT_TYPE"=>"application/json", "HTTP_X_PACT_ORIGINAL_HEADER_NAMES"=>"Content-Type", "X_PACT_PROVIDER_STATES"=>[{"name"=>"ready to receive metrics"}]}, see debug logs for body
+D, [2021-09-29T12:00:18.553349 #86144] DEBUG -- : body :{"name":"MyTestMetrics"}
+I, [2021-09-29T12:00:18.579922 #86144]  INFO -- : Received response with status: 200, headers: {"Content-Length"=>"17", "Content-Type"=>"application/json", "Date"=>"Wed, 29 Sep 2021 09:00:18 GMT"}, see debug logs for body
+D, [2021-09-29T12:00:18.579999 #86144] DEBUG -- : body: {"status": "ok1"}
